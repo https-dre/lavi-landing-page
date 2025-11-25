@@ -1,0 +1,42 @@
+import { Facebook, Instagram, Twitter } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+
+export default function Navbar() {
+  return (
+    <nav className="w-full py-6 px-8 flex justify-between items-center bg-white shadow-sm md:shadow-none">
+      {/* Logo Placeholder */}
+      <div className="flex items-center">
+        <div className="text-3xl font-bold text-purple-800 flex items-center gap-1">
+          <Image src="/logo.png" alt="logo" width={100} height={100}/>
+        </div>
+      </div>
+
+      {/* Links Centrais */}
+      <div className="hidden md:flex gap-8 text-gray-600 font-medium text-sm">
+        <Link href="#" className="text-purple-700 font-semibold">
+          Início
+        </Link>
+        <Link href="#" className="hover:text-purple-700 transition">
+          Serviços
+        </Link>
+        <Link href="#" className="hover:text-purple-700 transition">
+          Sobre
+        </Link>
+        <Link href="#" className="hover:text-purple-700 transition">
+          Depoimentos
+        </Link>
+        <Link href="#" className="hover:text-purple-700 transition">
+          Contato
+        </Link>
+      </div>
+
+      {/* Ícones Sociais */}
+      <div className="hidden md:flex gap-4 text-gray-500">
+        <Facebook size={20} className="hover:text-purple-800 cursor-pointer" />
+        <Instagram size={20} className="hover:text-purple-800 cursor-pointer" />
+        <Twitter size={20} className="hover:text-purple-800 cursor-pointer" />
+      </div>
+    </nav>
+  );
+}

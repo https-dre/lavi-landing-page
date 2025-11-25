@@ -1,0 +1,57 @@
+import { Facebook, Instagram, X } from "lucide-react";
+
+export default function Contact() {
+  return (
+    <section className="py-20 bg-white mb-20">
+      <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
+        {/* Lado Esquerdo: Infos */}
+        <div className="space-y-6">
+          <span className="text-purple-600 font-medium text-lg">Contato</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            Tire suas dúvidas!
+          </h2>
+          <p className="text-gray-500 leading-relaxed max-w-md">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text.
+          </p>
+
+          <div className="flex gap-4 pt-2">
+            <a
+              href="#"
+              className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
+            >
+              <Facebook size={24} />
+            </a>
+            <a
+              href="#"
+              className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
+            >
+              <Instagram size={24} />
+            </a>
+            <a
+              href="#"
+              className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
+            >
+              <X size={24} />
+            </a>
+          </div>
+        </div>
+
+        {/* Lado Direito: Imagem com Círculo Decorativo */}
+        <div className="relative flex justify-center md:justify-end">
+          {/* Círculo Roxo Decorativo */}
+          <div className="absolute -bottom-6 -right-6 md:right-10 md:-bottom-10 w-40 h-40 bg-purple-500 rounded-full z-0"></div>
+
+          {/* Imagem Redonda (Placeholder) */}
+          <div className="relative z-10 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl bg-gray-200">
+            {/* Substitua pela imagem real: */}
+            {/* <Image src="/mae-filha.jpg" alt="Contato" fill className="object-cover" /> */}
+            <div className="w-full h-full flex items-center justify-center text-gray-400 bg-gray-200">
+              Foto Mãe/Filha
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="w-full py-6 px-8 flex justify-between items-center bg-white shadow-sm md:shadow-none">
+    <nav className="border-b-1 border-gray-400 w-full py-6 px-8 flex justify-between items-center bg-white shadow-sm md:shadow-none">
       {/* Logo Placeholder */}
       <div className="flex items-center">
         <div className="text-3xl font-bold text-purple-800 flex items-center gap-1">
@@ -14,7 +14,7 @@ export default function Navbar() {
 
       {/* Links Centrais */}
       <div className="hidden md:flex gap-8 text-gray-600 font-medium text-sm">
-        <Link href="#introducao" className="text-purple-700 transition font-semibold">
+        <Link href="#introducao" className="hover:text-purple-700 transition">
           Sobre
         </Link>
         <Link href="#features" className="hover:text-purple-700 transition">

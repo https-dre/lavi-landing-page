@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="border-b-1 border-gray-400 relative w-full min-h-[700px] flex overflow-hidden bg-white">
+    <section className="border-b-1 border-gray-400 relative w-full min-h-[500px] flex overflow-hidden bg-white">
       {/* CAMADA 0: O Gradiente (Fundo Base) 
           z-0: Fica no nível mais baixo possível.
       */}

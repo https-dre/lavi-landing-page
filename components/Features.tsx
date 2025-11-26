@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section id="introducao" className="bg-white">
       {/* Introdução */}
-      <div className="pt-20 pb-12 container z-10 border-b-1 border-gray-400 mx-auto px-6 text-center w-max">
+      <div className="pt-20 pb-12 container z-10 border-b-1 border-gray-400 mx-auto px-6 text-center w-full">
         <h2 className="text-purple-800 font-bold text-xl mb-6">Sobre nós</h2>
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           O projeto propõe o desenvolvimento de um aplicativo mobile capaz de

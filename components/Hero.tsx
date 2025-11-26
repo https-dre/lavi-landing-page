@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="border-b-1 border-gray-400 relative w-full min-h-[700px] flex items-center overflow-hidden bg-white">
+    <section className="border-b-1 border-gray-400 relative w-full min-h-[700px] flex overflow-hidden bg-white">
       {/* CAMADA 0: O Gradiente (Fundo Base) 
           z-0: Fica no nível mais baixo possível.
       */}
@@ -13,7 +13,7 @@ export default function Hero() {
           Assim, mesmo se a tela mudar, o branco nunca vai cobrir a grade.
       */}
       <div
-        className="absolute inset-0 z-1 opacity-50 pointer-events-none"
+        className="absolute inset-0 z-1  pointer-events-none"
         style={{
           backgroundImage:
             "linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px)",
@@ -33,7 +33,7 @@ export default function Hero() {
             src="/woman.png"
             alt="Mulher sorrindo com cesto de roupas"
             fill
-            className="object-contain object-right-bottom"
+            className="object-contain object-bottom-right"
             priority
             quality={100}
           />
@@ -43,11 +43,10 @@ export default function Hero() {
       {/* CAMADA 20: O Texto
           z-20: Garante que botões e textos fiquem clicáveis e legíveis.
       */}
-      <div className="container mx-auto px-6 md:px-12 relative z-20 h-full pt-20 md:pt-0">
+      <div className="container mt-20 md:px-12 relative z-20 md:pt-0">
         <div className="w-full md:w-[55%] space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold text-purple-950 leading-[1.1] tracking-tight">
-            Gerenciador e <br />
-            Localizador de <br />
+          <h1 className="text-5xl 2xl:text-7xl font-bold text-purple-950 leading-[1.1] tracking-tight">
+            Gerenciador e Localizador de <br />
             Lavanderias
           </h1>
 

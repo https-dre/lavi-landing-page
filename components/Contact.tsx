@@ -1,9 +1,10 @@
+import { INSTAGRAM_URL } from "@/conf/env";
 import { Facebook, Instagram, X } from "lucide-react";
 import Image from "next/image";
 
 export default function Contact() {
   return (
-    <section id="contato" className="border-b-1 border-gray-400 py-20 bg-white mb-20">
+    <section id="contato" className="py-5 bg-white mb-20">
       <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
         {/* Lado Esquerdo: Infos */}
         <div className="space-y-6">
@@ -12,28 +13,17 @@ export default function Contact() {
             Tire suas dúvidas!
           </h2>
           <p className="text-gray-500 leading-relaxed max-w-md">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
+            Tem dúvidas, sugestões ou quer saber mais sobre a plataforma? Estamos aqui para ajudar.
+            <br/>
+            Entre em contato e teremos o prazer de atender você.
           </p>
 
           <div className="flex gap-4 pt-2">
             <a
-              href="#"
-              className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
-            >
-              <Facebook size={24} />
-            </a>
-            <a
-              href="#"
+              href={INSTAGRAM_URL}
               className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
             >
               <Instagram size={24} />
-            </a>
-            <a
-              href="#"
-              className="w-12 h-12 border border-gray-400 rounded flex items-center justify-center hover:border-purple-600 hover:text-purple-600 transition text-gray-600"
-            >
-              <X size={24} />
             </a>
           </div>
         </div>
@@ -47,7 +37,7 @@ export default function Contact() {
               Foto Mãe/Filha
             </div>
           </div> */}
-          <Image src="/mae_filha.gif" alt="mãe e filha" width={500} height={500}/>
+          <Image src="/mae_filha.gif" alt="mãe e filha" width={400} height={400} />
         </div>
       </div>
     </section>

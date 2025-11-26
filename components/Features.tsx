@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section id="introducao" className="bg-white">
       {/* Introdução */}
-      <div className="py-20 container border-b-1 border-gray-400 mx-auto px-6 text-center mb-24 w-max">
+      <div className="py-20 container z-10 border-b-1 border-gray-400 mx-auto px-6 text-center w-max">
         <h2 className="text-purple-800 font-bold text-xl mb-6">Sobre nós</h2>
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           O projeto propõe o desenvolvimento de um aplicativo mobile capaz de
@@ -16,7 +16,7 @@ export default function Features() {
       </div>
 
       {/* Diagrama de Funcionalidades */}
-      <div id="features" className="relative w-full max-w-5xl mx-auto h-[500px] md:h-[600px] flex justify-center">
+      <div id="features" className="relative z-0 w-full max-w-5xl mx-auto h-[500px] md:h-[600px] flex justify-center">
         {/* A Linha Curva (O arco roxo) */}
         {/* Usamos um div gigante com borda arredondada apenas embaixo para simular o sorriso/arco */}
         <div className="absolute top-[120px] w-[80%] h-[400px] border-b-4 border-l-4 border-r-4 border-purple-600 rounded-b-full opacity-80 pointer-events-none -z-0"></div>

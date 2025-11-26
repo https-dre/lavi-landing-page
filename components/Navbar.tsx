@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="border-b-1 border-gray-400 w-full py-6 px-8 flex justify-between items-center bg-white shadow-sm md:shadow-none">
+    <nav className="border-b-1 border-gray-400 w-full px-8 flex justify-between items-center bg-white shadow-sm md:shadow-none">
       {/* Logo Placeholder */}
       <div className="flex items-center">
         <div className="text-3xl font-bold text-purple-800 flex items-center gap-1">
@@ -30,9 +30,7 @@ export default function Navbar() {
 
       {/* Ícones Sociais */}
       <div className="hidden md:flex gap-4 text-gray-500">
-        <Facebook size={20} className="hover:text-purple-800 cursor-pointer" />
         <Instagram size={20} className="hover:text-purple-800 cursor-pointer" />
-        <Twitter size={20} className="hover:text-purple-800 cursor-pointer" />
       </div>
     </nav>
   );

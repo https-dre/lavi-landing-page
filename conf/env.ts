@@ -1,0 +1,1 @@
+export const INSTAGRAM_URL = "https://www.instagram.com/lavi.lavanderias?igsh=MWJ4bmg2MDN0N2dhOA==";

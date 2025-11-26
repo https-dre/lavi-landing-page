@@ -1,5 +1,5 @@
 import React from 'react';
-import { CreditCard, FileText, Link as LinkIcon } from 'lucide-react';
+import { Banknote, TicketPercent, FileText, Link as LinkIcon } from 'lucide-react';
 
 // Ícone do Pix Customizado (Replicando o formato oficial/da imagem)
 const PixIcon = ({ className }: { className?: string }) => (
@@ -18,13 +18,13 @@ const FounderFeatures = () => {
     {
       title: "Pagamentos via Pix",
       description: "Clientes podem pagar por seus pedidos diretamente no aplicativo.",
-      icon: <PixIcon className="w-6 h-6 text-slate-800" />,
+      icon: <Banknote className="w-6 h-6 text-slate-800" />,
       borderClass: "border-b md:border-r" // Borda inferior no mobile, direita no desktop
     },
     {
       title: "Comissão Inteligente",
       description: "Um modelo de cobrança adaptável, pensado para incentivar tickets altos. ",
-      icon: <CreditCard className="w-6 h-6 text-slate-800" />,
+      icon: <TicketPercent className="w-6 h-6 text-slate-800" />,
       borderClass: "border-b" // Borda inferior (mobile e desktop superior)
     },
     {

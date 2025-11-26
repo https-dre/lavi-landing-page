@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AppDownload() {
   return (
-    <section className="py-24 bg-white">
+    <section id="app" className="py-24 bg-white">
       <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-16 items-center">
         {/* Lado Esquerdo: Mockups dos Celulares */}
         <div className="relative flex justify-center md:justify-start gap-4">

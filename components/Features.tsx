@@ -3,7 +3,7 @@ export default function Features() {
     <section className="py-20 bg-white">
       {/* Introdução */}
       <div className="container mx-auto px-6 text-center mb-24 max-w-3xl">
-        <h2 className="text-purple-800 font-bold text-xl mb-6">Introdução</h2>
+        <h2 id="introducao" className="text-purple-800 font-bold text-xl mb-6">Sobre nós</h2>
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           O projeto propõe o desenvolvimento de um aplicativo mobile capaz de
           localizar lavanderias próximas ao usuário, além de oferecer
@@ -24,7 +24,7 @@ export default function Features() {
         {/* Círculo Central Principal */}
         <div className="absolute top-0 z-10">
           <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-b from-purple-600 to-purple-400 rounded-full shadow-2xl flex items-center justify-center text-center p-8 border-4 border-white ring-4 ring-purple-100">
-            <h3 className="text-white text-2xl md:text-3xl font-bold">
+            <h3 id="features" className="text-white text-2xl md:text-3xl font-bold">
               Funcionalidades <br /> do Aplicativo
             </h3>
           </div>

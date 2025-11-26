@@ -8,25 +8,22 @@ export default function Navbar() {
       {/* Logo Placeholder */}
       <div className="flex items-center">
         <div className="text-3xl font-bold text-purple-800 flex items-center gap-1">
-          <Image src="/logo.png" alt="logo" width={100} height={100}/>
+          <Image src="/logo.png" alt="logo" width={100} height={100} />
         </div>
       </div>
 
       {/* Links Centrais */}
       <div className="hidden md:flex gap-8 text-gray-600 font-medium text-sm">
-        <Link href="#" className="text-purple-700 font-semibold">
-          Início
-        </Link>
-        <Link href="#" className="hover:text-purple-700 transition">
-          Serviços
-        </Link>
-        <Link href="#" className="hover:text-purple-700 transition">
+        <Link href="#introducao" className="text-purple-700 transition font-semibold">
           Sobre
         </Link>
-        <Link href="#" className="hover:text-purple-700 transition">
-          Depoimentos
+        <Link href="#features" className="hover:text-purple-700 transition">
+          Produto
         </Link>
-        <Link href="#" className="hover:text-purple-700 transition">
+        <Link href="#app" className="hover:text-purple-700 transition">
+          Download
+        </Link>
+        <Link href="#contato" className="hover:text-purple-700 transition">
           Contato
         </Link>
       </div>

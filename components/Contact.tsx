@@ -1,8 +1,9 @@
 import { Facebook, Instagram, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Contact() {
   return (
-    <section className="py-20 bg-white mb-20">
+    <section id="contato" className="py-20 bg-white mb-20">
       <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
         {/* Lado Esquerdo: Infos */}
         <div className="space-y-6">
@@ -40,16 +41,13 @@ export default function Contact() {
         {/* Lado Direito: Imagem com Círculo Decorativo */}
         <div className="relative flex justify-center md:justify-end">
           {/* Círculo Roxo Decorativo */}
-          <div className="absolute -bottom-6 -right-6 md:right-10 md:-bottom-10 w-40 h-40 bg-purple-500 rounded-full z-0"></div>
-
-          {/* Imagem Redonda (Placeholder) */}
+          {/* <div className="absolute -bottom-6 -right-6 md:right-10 md:-bottom-10 w-40 h-40 bg-purple-500 rounded-full z-0"></div>
           <div className="relative z-10 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl bg-gray-200">
-            {/* Substitua pela imagem real: */}
-            {/* <Image src="/mae-filha.jpg" alt="Contato" fill className="object-cover" /> */}
             <div className="w-full h-full flex items-center justify-center text-gray-400 bg-gray-200">
               Foto Mãe/Filha
             </div>
-          </div>
+          </div> */}
+          <Image src="/mae_filha.gif" alt="mãe e filha" width={500} height={500}/>
         </div>
       </div>
     </section>

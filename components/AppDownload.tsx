@@ -20,7 +20,7 @@ export default function AppDownload() {
 
         {/* Lado Direito: Texto e Botões */}
         <div className="space-y-6">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-3xl text-gray-900">
             O Protótipo já está disponível!
           </h2>
           <p className="text-gray-500 leading-relaxed text-sm md:text-base">

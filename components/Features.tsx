@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section id="introducao" className="bg-white">
       {/* Introdução */}
-      <div className="py-20 container z-10 border-b-1 border-gray-400 mx-auto px-6 text-center w-max">
+      <div className="pt-20 pb-12 container z-10 border-b-1 border-gray-400 mx-auto px-6 text-center w-max">
         <h2 className="text-purple-800 font-bold text-xl mb-6">Sobre nós</h2>
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           O projeto propõe o desenvolvimento de um aplicativo mobile capaz de
@@ -17,14 +17,19 @@ export default function Features() {
 
       {/* Diagrama de Funcionalidades */}
       <div id="features" className="relative z-0 w-full max-w-5xl mx-auto h-[500px] md:h-[600px] flex justify-center">
-        {/* A Linha Curva (O arco roxo) */}
-        {/* Usamos um div gigante com borda arredondada apenas embaixo para simular o sorriso/arco */}
-        <div className="absolute top-[120px] w-[80%] h-[400px] border-b-4 border-l-4 border-r-4 border-purple-600 rounded-b-full opacity-80 pointer-events-none -z-0"></div>
+        
+        {/* A Linha Curva (Background) */}
+        <div className="absolute top-[80px] w-[80%] h-[400px] border-b-4 border-l-4 border-r-4 border-purple-600 rounded-b-full opacity-80 pointer-events-none -z-0"></div>
 
-        {/* Círculo Central Principal */}
+        {/* Círculo Central (Meia lua invertida / Tigela) 
+            ALTERAÇÕES:
+            - rounded-b-full / rounded-t-none: Arredonda embaixo, reto em cima.
+            - items-start / pt-8: Alinha o texto no topo (parte larga).
+            - border-t-0: Remove a borda de cima para parecer cortado.
+        */}
         <div className="absolute top-0 z-10">
-          <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-b from-purple-600 to-purple-400 rounded-full shadow-2xl flex items-center justify-center text-center p-8 border-4 border-white ring-4 ring-purple-100">
-            <h3  className="text-white text-2xl md:text-3xl font-bold">
+          <div className="w-64 h-32 md:w-80 md:h-40 bg-gradient-to-b from-purple-600 to-purple-400 rounded-b-full rounded-t-none shadow-2xl flex items-start justify-center text-center pt-8">
+            <h3 className="text-white text-xl md:text-2xl font-bold leading-tight">
               Funcionalidades <br /> do Aplicativo
             </h3>
           </div>

@@ -6,14 +6,14 @@ export default function Hero() {
       {/* CAMADA 0: O Gradiente (Fundo Base) 
           z-0: Fica no nível mais baixo possível.
       */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-white to-purple-100/60 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-white via-white to-purple-400 z-0"></div>
 
       {/* CAMADA 1: A Grade (Pattern)
           z-1: Forçamos ela a ficar ACIMA do gradiente branco. 
           Assim, mesmo se a tela mudar, o branco nunca vai cobrir a grade.
       */}
       <div
-        className="absolute inset-0 z-1  pointer-events-none"
+        className="absolute inset-0 z-1 opacity-50 pointer-events-none"
         style={{
           backgroundImage:
             "linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px)",
@@ -45,7 +45,7 @@ export default function Hero() {
       */}
       <div className="container mt-20 md:px-12 relative z-20 md:pt-0">
         <div className="w-full md:w-[55%] space-y-8">
-          <h1 className="text-5xl 2xl:text-7xl font-bold text-purple-950 leading-[1.1] tracking-tight">
+          <h1 className="text-5xl 2xl:text-7xl text-purple-950 leading-[1.1] tracking-tight">
             Gerenciador e Localizador de <br />
             Lavanderias
           </h1>

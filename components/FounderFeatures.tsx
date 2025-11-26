@@ -17,13 +17,13 @@ const FounderFeatures = () => {
   const features = [
     {
       title: "Pagamentos via Pix",
-      description: "Sistema de pagamento via Pix integrado no Aplicativo.",
+      description: "Clientes podem pagar por seus pedidos diretamente no aplicativo.",
       icon: <PixIcon className="w-6 h-6 text-slate-800" />,
       borderClass: "border-b md:border-r" // Borda inferior no mobile, direita no desktop
     },
     {
-      title: "Comissão Adaptável",
-      description: "Com um modelo de comissão adaptável para incentivar tickets altos.",
+      title: "Comissão Inteligente",
+      description: "Um modelo de cobrança adaptável, pensado para incentivar tickets altos. ",
       icon: <CreditCard className="w-6 h-6 text-slate-800" />,
       borderClass: "border-b" // Borda inferior (mobile e desktop superior)
     },

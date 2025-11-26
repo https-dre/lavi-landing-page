@@ -20,6 +20,9 @@ export default function Navbar() {
         <Link href="#features" className="hover:text-purple-700 transition">
           Produto
         </Link>
+        <Link href="#founder-features" className="hover:text-purple-700 transition">
+          Pagamentos
+        </Link>
         <Link href="#app" className="hover:text-purple-700 transition">
           Download
         </Link>

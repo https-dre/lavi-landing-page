@@ -9,7 +9,7 @@ export default function Contact() {
         {/* Lado Esquerdo: Infos */}
         <div className="space-y-6">
           <span className="text-purple-600 font-medium text-lg">Contato</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl text-gray-900">
             Tire suas dúvidas!
           </h2>
           <p className="text-gray-500 leading-relaxed max-w-md">

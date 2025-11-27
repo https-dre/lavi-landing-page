@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Laví - o aplicativo de lavanderias
 
-## Getting Started
+## Sobre o projeto
 
-First, run the development server:
+Laví é uma solução tecnológica em formato de aplicativo móvel projetada para otimizar a conexão entre clientes e lavanderias. O projeto foi desenvolvido como um Trabalho de Conclusão de Curso (TCC) para o curso Técnico em Desenvolvimento de Sistemas da ETEC de Taboão da Serra.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A plataforma busca resolver problemas comuns no setor de lavanderias, como a dificuldade no gerenciamento de pedidos, a falta de comunicação eficiente com os clientes e a dificuldade de encontrar serviços especializados. Para isso, o Laví oferece funcionalidades tanto para os clientes quanto para os prestadores de serviço, centralizando a busca, o agendamento e a gestão dos serviços de lavanderia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Proposta de valor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Para Clientes**: Facilitar a localização de lavanderias próximas, oferecer transparência no acompanhamento dos pedidos, e proporcionar um canal de comunicação direto com os prestadores de serviço;
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Para empreendedores**: Oferecer uma ferramenta de gerenciamento de pedidos, otimizar a comunicação com os clientes, e aumentar a visibilidade do negócio.
 
-## Learn More
+## Equipe
 
-To learn more about Next.js, take a look at the following resources:
+**INSTITUIÇÃO**: Etec de Taboão da Serra - Taboão da Serra, SP - Brasil.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Alunos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **André de Oliveira**: desenvolvedor Back-End [@https-dre](https://github.com/https-dre)
 
-## Deploy on Vercel
+- **Arthur Rolemberg**: desenvolvedor Front-End [@Massivo5040](https://github.com/Massivo5040)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Beatriz Bezerra**: líder e designer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Eduardo Rossi**: analista e revisor
+
+- **Gabriel Durbano**: designer de UX UI
+
+### Orientadoras
+
+- Profª **Nathane de Castro** - Planejamento e desenvolvimento do TCC em desenvolvimento de sistemas
+- Profª **Alícia Stefany** - Programação de Aplicativos Mobile
+
+## Contato
+
+André Dias - [diaso.andre@outlook.com](mailto:diaso.andre@outlook.com)
+
+
+

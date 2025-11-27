@@ -11,8 +11,6 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
-
-      {/* Novos Componentes adicionados aqui */}
       <ToFounders />
       <AppDownload />
       <Contact />

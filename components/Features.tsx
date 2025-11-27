@@ -1,4 +1,5 @@
 import { MapPin, Star, Clock } from "lucide-react"; // Instale: npm install lucide-react
+import Image from "next/image";
 
 export default function Features() {
   return (
@@ -16,7 +17,7 @@ export default function Features() {
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Chega de procurar lavanderias confiáveis sem sucesso. A{" "}
-              <strong>Laví</strong> conecta você aos melhores serviços da
+              <strong>Laví</strong> conecta você aos melhores serviços de lavanderia da
               região, centralizando avaliações, agendamentos e pagamentos em um
               só lugar. Praticidade para quem usa, organização para quem
               oferece.
@@ -54,23 +55,7 @@ export default function Features() {
 
           {/* Coluna 2: Imagem Ilustrativa (Placeholder) */}
           <div className="lg:w-1/2 w-full">
-            <div className="relative rounded-2xl bg-gradient-to-tr from-purple-100 to-white border border-purple-100 p-8 shadow-xl">
-              {/* Aqui você colocaria uma imagem real ou um SVG ilustrativo */}
-              <div className="aspect-video bg-purple-200 rounded-lg flex items-center justify-center overflow-hidden">
-                <img
-                  src="/api/placeholder/600/400"
-                  alt="Pessoa feliz usando o celular"
-                  className="object-cover w-full h-full opacity-80 mix-blend-multiply"
-                />
-
-                <span className="absolute text-purple-800 font-medium opacity-50">
-                  Imagem Ilustrativa / Mockup do App
-                </span>
-              </div>
-
-              {/* Efeito decorativo (bolinha) */}
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-purple-600 rounded-full opacity-20 blur-2xl"></div>
-            </div>
+            <Image src="/community.svg" alt="Conexões" width={450} height={200} />
           </div>
         </div>
       </div>

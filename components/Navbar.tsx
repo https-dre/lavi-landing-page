@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { INSTAGRAM_URL } from "@/conf/env";
 
 export default function Navbar() {
   return (
@@ -20,7 +21,10 @@ export default function Navbar() {
         <Link href="#features" className="hover:text-purple-700 transition">
           Produto
         </Link>
-        <Link href="#founder-features" className="hover:text-purple-700 transition">
+        <Link
+          href="#founder-features"
+          className="hover:text-purple-700 transition"
+        >
           Pagamentos
         </Link>
         <Link href="#app" className="hover:text-purple-700 transition">
@@ -33,7 +37,12 @@ export default function Navbar() {
 
       {/* Ícones Sociais */}
       <div className="hidden md:flex gap-4 text-gray-500">
-        <Instagram size={20} className="hover:text-purple-800 cursor-pointer" />
+        <Link href={INSTAGRAM_URL}>
+          <Instagram
+            size={20}
+            className="hover:text-purple-800 cursor-pointer"
+          />
+        </Link>
       </div>
     </nav>
   );

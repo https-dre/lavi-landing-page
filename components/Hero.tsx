@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -55,9 +56,12 @@ export default function Hero() {
               Otimize sua lavagem com segurança na Laví
             </p>
 
-            <button className="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-4 px-10 rounded-full transition-all shadow-lg hover:shadow-purple-200 hover:-translate-y-1 text-lg pointer-events-auto">
+            <Link
+              href="https://github.com/laundry-lavi"
+              className="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-4 px-10 rounded-full transition-all shadow-lg hover:shadow-purple-200 hover:-translate-y-1 text-lg pointer-events-auto"
+            >
               Saiba Mais
-            </button>
+            </Link>
           </div>
         </div>
       </div>

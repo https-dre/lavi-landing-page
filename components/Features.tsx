@@ -17,7 +17,7 @@ export default function Features() {
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Chega de procurar lavanderias confiáveis sem sucesso. A{" "}
-              <strong>Laví</strong> conecta você aos melhores serviços de lavanderia da
+              <strong>Laví</strong> conecta você aos melhores serviços da
               região, centralizando avaliações, agendamentos e pagamentos em um
               só lugar. Praticidade para quem usa, organização para quem
               oferece.
